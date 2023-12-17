@@ -1,0 +1,53 @@
+.acc-brown {
+    --bs-accordion-btn-bg: rgb(245, 125, 39);
+    --bs-accordion-active-bg: chocolate;
+}
+
+.acc-dark{
+    --bs-accordion-btn-bg: black;
+    --bs-accordion-active-bg: black;
+}
+
+.acc-green {
+    --bs-accordion-btn-bg: rgb(3, 193, 3);
+    --bs-accordion-active-bg: green;
+}
+
+.acc-warning {
+    --bs-accordion-btn-bg: rgb(212, 184, 21);
+    --bs-accordion-active-bg: rgb(249, 213, 5);
+}
+
+body {
+    background-color: rgba(78, 77, 77, 0.212);
+}
+
+.bottom-right-toast {
+    position: fixed;
+    bottom: 3rem;
+    right: 1rem;
+}
+
+.divider {
+    height: 3rem;
+    background-color: rgba(128, 128, 128, 0.212);
+    border: solid rgba(0, 0, 0, 0.205);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.bg-brown {
+    background-color: chocolate;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.table-active {
+    --bs-table-active-bg: #ffa200;
+}
+
+.table-hover {
+    --bs-table-hover-bg: red;
+}
